@@ -1,0 +1,33 @@
+// Actividad Número 1 de como crear una calculadora simple
+// Lenguaje de Programación en C++
+// Ingeniería en Desarrollo de Software
+// Algoritmo creado por Uziel de Jesús López Ornelas
+
+// Añadimos las librerias correspondientes
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+{
+    float numeroA, numeroB;
+
+    std::cout << "Escribe el Numero Primario: ";
+    std::cin >> numeroA;
+
+    std::cout << "Escribe el Numero Secundario: ";
+    std::cin >> numeroB;
+
+    float suma = numeroA + numeroB;
+    float resta = numeroA - numeroB;
+    float multiplicacion = numeroA * numeroB;
+    float division = numeroA / numeroB;
+
+    std::cout << "La Suma resultante es: " << suma << std::endl;
+    std::cout << "La Resta resultante es: " << resta << std::endl;
+    std::cout << "La Multiplicacion resultante es : " << multiplicacion << std::endl;
+    std::cout << "La Division resultante es: " << division << std::endl;
+
+    return 0;
+}
