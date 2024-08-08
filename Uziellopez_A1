@@ -1,0 +1,24 @@
+//Actividad Número 1 sobre como crear un programa para determinar la edad de una persona
+//Lenguaje de Programación en C++
+// Ingenieria en Desarrollo de Software
+//Algoritmo creado por Uziel de Jesús López Ornelas
+
+//Añadimos las librerias correspondientes
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+{
+	int edad;
+	std::cout << "Ingrese su edad en el Programa: ";
+	std::cin >> edad;
+	if (edad >= 18) {
+		std::cout << "La edad seleccionada indica que eres mayor de edad: " << std::endl;
+	}
+	else {
+		std::cout << "La edad seleccionada indica que eres menor de edad: " << std::endl;
+	}
+	return 0;
+}
